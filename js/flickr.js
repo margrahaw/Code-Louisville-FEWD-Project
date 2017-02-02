@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+  //Flickr API
+  //On click event
   $('button').click(function () {
     $("button").removeClass("selected");
     $(this).addClass("selected");
@@ -42,8 +45,6 @@ $(document).ready(function () {
      $option.text($anchor.text());
      //Append option to select
      $select.append($option);
-
-
     });
 
   //Bind change listner to the select 
@@ -51,6 +52,15 @@ $(document).ready(function () {
       window.location = $select.val();
     });
 
+
+  //Slick.js additions
+  $('.slides').slick({
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    dots: true
+  }); 
 
 }); // end ready
 
