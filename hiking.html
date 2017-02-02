@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Utah Parks Hiking</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700|Open+Sans:400,700">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  	<script src="js/flickr.js"></script>
+</head>
+<body>
+	<!-- navigation -->
+	<header>
+		<div class="nav">
+			<span><a href="index.html">Utah National Parks Guide</a></span>
+				<ul id="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="photos.html">Photos</a></li>
+					<li><a href="camping.html">Camping</a></li>
+					<li class="menu-selected"><a href="hiking.html">Hiking</a></li>
+				</ul>
+		</div>
+	</header>
+	<!-- end navigation -->
+	<main>
+	<div class="trails full-width content">
+		<h1>Hiking</h1>
+		<p>Mauris velit nibh, pulvinar a ex quis, porttitor convallis tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis elit lorem, malesuada quis tincidunt ac, aliquam eget ante. Quisque in venenatis augue. Suspendisse est nulla, eleifend sed orci vitae, dapibus auctor felis. Nulla at consectetur lectus. Maecenas vel egestas orci, a condimentum ligula. Ut nec leo nisl.</p>
+	</div>
+	<div class="full-width content">
+		<h2>Trail Recommendations</h2>
+		<!-- form -->
+		<form action="hiking.html" method="post" class="form">
+			<fieldset>
+				<label class="form-legend">Park</label><br>
+				<input type="checkbox" id="arches" value="arches-location"><label for="arches">Arches National Park</label><br>
+				<input type="checkbox" id="bryce" value="bryce-location"><label for="bryce">Bryce Canyon National Park</label><br>
+				<input type="checkbox" id="canyonlands" value="canyonlands-location"><label for="canyonlands">Canyonlands National Park</label><br>
+				<input type="checkbox" id="capitol" value="capitol-location"><label for="capitol">Capitol Reef National Park</label><br>
+				<input type="checkbox" id="zion" value="zion-location"><label for="zion">Zion National Park</label><br>
+			</fieldset>
+			<fieldset>
+				<label class="form-legend">Trail Length</label><br>
+					<input type="radio" id="easy" value="less-1" name="length"><label for="easy">Less than 1 mile</label><br>
+					<input type="radio" id="medium" value="less-1" name="length"><label for="medium">Between 1 and 3 miles</label><br>
+					<input type="radio" id="hard" value="less-1" name="length"><label for="hard">Between 3 and 7 miles</label><br>
+					<input type="radio" id="difficult" value="less-1" name="length"><label for="difficult">Over 7 miles</label><br>
+			</fieldset>
+			<fieldset>
+				<label for="difficulty" class="form-legend">Select Your Hiking Level</label>
+				<select id="difficulty" name="difficulty-level">
+					<option value="easy">Easy</option>
+					<option value="moderate">Moderate</option>
+					<option value="hard">Hard</option>
+					<option value="difficult">Difficult</option>
+					<option value="expert">Expert</option>
+				</select>
+			</fieldset>
+			<button type="submit">Find a Trail</button>
+		</form>
+	</div>
+	</main>
+	<footer>
+		<p>&copy; 2017 Mary Hawley<p>
+	</footer>
+</body>
+</html>

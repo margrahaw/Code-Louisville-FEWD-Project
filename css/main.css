@@ -1,0 +1,424 @@
+
+/* FONT FAMILIES
+	body font 			font-family: 'Open Sans', sans-serif;
+	small caps 			font-family: 'Alegreya Sans SC', sans-serif;
+	body:	1em
+			1.414em
+			1.999em
+			2.827em
+			3.998em
+COLORS
+	Off White color: #EDE9E8;
+	Black color: #1E2424;
+*/
+
+
+
+/* Body Styles */
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #EDE9E8;
+	color: #00030A; 
+	background: url('../img/canyon_background.jpg') no-repeat;
+	background-size: cover;
+	position: right top;
+	background-attachment: fixed;
+}
+p {
+	padding-bottom: 20px;
+}
+.text_sc {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: normal;
+}
+.content {
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.5);
+}
+.full-width {
+	margin: 30px auto;
+	width: 90%;
+	max-width: 1000px;
+}
+
+/*-----LIST STYLES*/
+li {
+	list-style: none;
+	margin: 10px 0;
+}
+ul {
+	padding: 0;
+}
+
+/*-----LINK STYLES*/
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+/*	background: rgba(255, 255, 255, 0.7);*/
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+/*-----BUTTON STYLES*/
+button {
+	border: none;
+	background-color: #1E2424;
+	color: #EDE9E8;
+	letter-spacing: 1.5px;
+	border-radius: 5px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+button:hover {
+	cursor: pointer;
+	
+}
+
+/*-----NAVIGATION*/
+header {
+	background-color: #1E2424;
+}
+.nav {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#menu li {
+	display: none
+}
+.nav span {
+	font-size: 1.5em;
+}
+.nav span,
+.nav a {
+		color: #EDE9E8;
+}
+.nav ul {
+	display: flex;
+	justify-content: flex-end;
+	width: 25%;
+}
+.nav h1 {
+	margin: 0;
+}
+.nav p {
+	width: 100%;
+	text-align: center;
+}
+
+/*-----F00TER*/
+footer p {
+	text-align: center;
+	color:  #EDE9E8;
+	height: 20px;
+}
+
+
+
+/*------------------------------------
+			HOME PAGE
+--------------------------------------*/
+
+.parks ul {
+	text-align: center;
+}
+
+/*------------------------------------
+		END HOME PAGE
+--------------------------------------*/
+
+
+/*------------------------------------
+			PHOTOS PAGE
+--------------------------------------*/
+
+/*-----SELECT BUTTON STYLES*/
+.select-buttons button {
+	display: flex;
+	flex-direction: column;
+	color: #1E2424;
+	height: 350px;
+	border: none;
+	background: rgba(255, 255, 255, 0.5);
+}
+.select-buttons button:hover{
+	background: rgba(255, 255, 255, 0.7);
+}
+.selected {
+	border: none;
+	background-color: white;
+}
+.select-buttons {
+	list-style-type: none;
+	padding-left: 0;
+
+}
+.select-buttons li img {
+	height: 150px;
+	width: 150px;
+	margin: 20px auto;
+}
+.select-buttons h3 {
+	margin: 0 auto;
+}
+.select-buttons p {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 10%;
+}
+.select-buttons li {
+	padding: 10px;
+	overflow: auto;
+	font-size: .75em;
+}
+
+/*----FLICKR PHOTO GALLERY STYLES*/
+#photos ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0;
+	max-width: 1000px;
+}
+#photos li {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 200px;
+	height: auto;
+	padding: 20px;
+}
+#photos img {
+	max-width: 200px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 auto;
+	box-shadow: 5px 5px 2px #888888;
+}
+
+/*------------------------------------
+		END PHOTOS PAGE
+--------------------------------------*/
+
+
+/*------------------------------------
+			CAMPING PAGE
+--------------------------------------*/
+
+
+.slide {
+	width: 100%;
+	height: 100%;
+	min-height: 350px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.5);
+} 
+.slide h2 {
+	margin-top: 10%;
+	font-size: 1.5em;
+}
+.slide ul {
+	padding: 10px 0;
+	margin: 20px 15%;
+	height: 120px;
+	background: rgba(255, 255, 255, 0.5);
+}
+.slide img {
+	width: 80%;
+	margin: 10% auto 15% auto;
+}
+.slide button {
+	width: 70%;
+	padding: 10px;
+}	
+.slide button a{
+	color: #EDE9E8;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+.slide button a:hover {
+	font-weight: normal;
+}
+.slide button:hover {
+	border: 3px solid #EDE9E8;
+}
+
+/* slick styles*/
+.slick-dots {
+	bottom: 20px;
+}
+.slick-dots li button:before {
+	font-size: 16px;
+}
+
+/*------------------------------------
+		END CAMPING PAGE
+--------------------------------------*/
+
+
+/*------------------------------------
+		HIKING PAGE
+--------------------------------------*/
+
+/*-----FORM STYLES*/
+.form {
+	width: 100%;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+fieldset {
+	border: none;
+	padding: 10% 10% 0 10%;
+}
+.form-legend {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+	margin: 10px 10px 10px 0;
+  	width: 30px;
+  	top: 10px;
+}
+select {
+  	border: none;
+  	border-radius: 5px;
+	height: auto;
+	margin: 10px auto 0 auto;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	border: 1px solid  #1E2424;
+}
+.form button {
+	width: 80%;
+	height: 40px;
+	margin: 10%;
+}
+.form button:hover {
+	font-weight: 700;
+}
+/*------------------------------------
+		END HIKING PAGE
+--------------------------------------*/
+
+/*------------------------------------
+			MEDIA QUERIES
+--------------------------------------*/
+
+/*-----MEDIUM SCREENS*/
+@media (min-width: 769px ) {
+	/*----BODY AND LAYOUT STYLES*/
+	.content {
+		padding: 30px;
+	}
+	.full-width {
+		width: 90%;
+	}
+	.activities .right {
+	padding-left: 100px;
+	}
+	.activities ul {
+		list-style: none;
+		padding-left: 0;
+	}
+	.activities,
+	.select-buttons,
+	.gallery {
+		display: flex;
+		justify-content: space-between;
+	}
+	.grid-half {
+	  width: 50%;
+	  float: left;
+	}
+	.col-left {
+		width: 60%;
+	}
+	.col-right {
+		width: 40%;
+		margin-left: 30px;
+	}
+	/*-----NAVIGATION*/
+	.nav {
+		width: 90%;
+	}
+	.nav select {
+		display: none;
+	}
+	.nav li a {
+		padding-left: 10px;
+	}
+	#menu li {
+		display: block;
+	}
+	/*-----PHOTOS PAGE*/
+	.select-buttons {
+		flex-direction: column;
+	}
+	.select-buttons li {
+		width: 100%;
+	}
+	.select-buttons div {
+		width: 50%;
+		margin: 40px auto;
+	}
+	.select-buttons li img {
+		height: 150px;
+		width: 150px;
+		margin: 25px;
+	}
+	.select-buttons h3 {
+		font-size: 2em;
+	}
+	.select-buttons p {
+		padding: 0;
+	}
+	.select-buttons button {
+		height: 200px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	/*-----HIKING PAGE*/
+	.form {
+		width: 60%;
+	}
+}
+
+/*-----LARGE SCREENS*/
+@media (min-width: 1025px) {
+	/*-----PHOTOS PAGE*/
+	.select-buttons {
+		flex-direction: row;
+	}
+	.select-buttons li {
+		width: 20%;
+	}
+	.select-buttons li img {
+		height: 120px;
+		width: 120px;
+		margin: 10px auto;
+	}
+	.select-buttons button {
+		height: 350px;
+		flex-direction: column;
+	}
+	.select-buttons div {
+		width: 100%;
+		margin: 0;
+	}
+	.select-buttons h3 {
+		font-size: 1em;
+	}
+}
