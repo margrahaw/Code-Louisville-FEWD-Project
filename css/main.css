@@ -144,10 +144,7 @@ footer p {
 
 /*-----SELECT BUTTON STYLES*/
 .select-buttons button {
-	display: flex;
-	flex-direction: column;
 	color: #1E2424;
-	height: 350px;
 	border: none;
 	background: rgba(255, 255, 255, 0.5);
 }
@@ -385,7 +382,6 @@ select {
 		padding: 0;
 	}
 	.select-buttons button {
-		height: 200px;
 		display: flex;
 		flex-direction: row;
 	}

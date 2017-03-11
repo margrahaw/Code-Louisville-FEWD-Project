@@ -12,10 +12,11 @@ $(document).ready(function () {
       format : "json",
     };
     function displayPhotos(data) {
+      console.log(data);
       var photoHTML = '<ul id="imageGallery">';
       $.each(data.items, function (i, photo) {
         photoHTML += '<li>';
-        photoHTML += '<a href="' + photo.link + '" class="image">';
+        photoHTML += '<a data-lightbox="image" href="' + photo.media.m + '">'; //photo.link - and - removed the class="image"
         photoHTML += '<img src="' + photo.media.m +'"></a></li>';
       });
       photoHTML += '</ul>';
@@ -64,3 +65,4 @@ $(document).ready(function () {
 
 }); // end ready
 
+//I should write create a lightbox for the photos and then remove the lightbox.js plugin 
