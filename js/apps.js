@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  //Flickr API
+  //Flickr API 
   //On click event 
   $('button').click(function () {
     $("button").removeClass("selected");
