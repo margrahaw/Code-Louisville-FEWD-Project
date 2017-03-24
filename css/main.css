@@ -28,7 +28,6 @@ body{
 	color: #00030A; 
 	background: url('../img/canyon_background.jpg') no-repeat;
 	background-size: cover;
-	position: right top;
 	background-attachment: fixed;
 }
 p {
@@ -148,7 +147,7 @@ footer p {
 --------------------------------------*/
 
 /*-----SELECT BUTTON STYLES*/
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 .select-buttons button {
 	color: #1E2424;
 	border: none;
@@ -165,7 +164,7 @@ footer p {
 	list-style-type: none;
 	padding-left: 0;
 =======
->>>>>>> refs/remotes/origin/master
+>>>>>>> refs/remotes/origin/master*/
 
 .photo-container {
 	width: 100%;
@@ -174,6 +173,7 @@ footer p {
 	position: relative;
 	padding: 0;
 }
+
 .photo-container img {
 	max-width: 100%;
 	max-height: 500px;
@@ -235,7 +235,7 @@ footer p {
 	max-width: 200px;
 	height: auto;
 	margin: 0 auto;
-	padding: 0 auto;
+	padding: 0;
 	box-shadow: 5px 5px 2px #888888;
 }
 
@@ -412,13 +412,6 @@ select {
 	.select-buttons p {
 		padding: 0;
 	}
-<<<<<<< HEAD
-	.select-buttons button {
-		display: flex;
-		flex-direction: row;
-	}
-=======
->>>>>>> refs/remotes/origin/master
 
 	/*-----HIKING PAGE*/
 	.form {
