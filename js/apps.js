@@ -1,12 +1,12 @@
 $(document).ready(function () {
 
   //Flickr API
-  //On click event
+  //On click event 
   $('button').click(function () {
     $("button").removeClass("selected");
     $(this).addClass("selected");
     var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
-    var park = $(this).children().children("h3").text();
+    var park = $(this).text();
     var flickrOptions = {
       tags: park,
       format : "json",
@@ -53,7 +53,6 @@ $(document).ready(function () {
       window.location = $select.val();
     });
 
-
   //Slick.js additions
   $('.slides').slick({
     fade: true,
@@ -61,7 +60,8 @@ $(document).ready(function () {
     autoplaySpeed: 4000,
     arrows: false,
     dots: true
-  }); 
+  });
+ 
 
 }); // end ready
 
