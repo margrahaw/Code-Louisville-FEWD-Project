@@ -5,7 +5,7 @@ $(document).ready(function () {
   $('button').click(function () {
     $("button").removeClass("selected");
     $(this).addClass("selected");
-    var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+    var flickrAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
     var park = $(this).text();
     var flickrOptions = {
       tags: park,
