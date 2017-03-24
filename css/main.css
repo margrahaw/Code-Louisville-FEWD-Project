@@ -420,7 +420,7 @@ select {
 }
 
 /*-----LARGE SCREENS*/
-@media (min-width: 1025px) {
+@media only screen (min-width: 1025px) {
 	/*-----PHOTOS PAGE*/
 	.select-buttons {
 		flex-direction: row;
