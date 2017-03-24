@@ -146,25 +146,6 @@ footer p {
 			PHOTOS PAGE
 --------------------------------------*/
 
-/*-----SELECT BUTTON STYLES*/
-/*<<<<<<< HEAD
-.select-buttons button {
-	color: #1E2424;
-	border: none;
-	background: rgba(255, 255, 255, 0.5);
-}
-.select-buttons button:hover{
-	background: rgba(255, 255, 255, 0.7);
-}
-.selected {
-	border: none;
-	background-color: white;
-}
-.select-buttons {
-	list-style-type: none;
-	padding-left: 0;
-=======
->>>>>>> refs/remotes/origin/master*/
 
 .photo-container {
 	width: 100%;
