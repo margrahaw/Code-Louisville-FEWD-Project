@@ -412,10 +412,6 @@ select {
 		padding: 1em;
 		margin-bottom: 1em;
 	}
-
-/*	.select-buttons {
-		flex-direction: row;
-	}*/
 	.select-buttons h3 {
 		font-size: 1em;
 	}
