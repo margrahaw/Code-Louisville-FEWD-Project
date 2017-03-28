@@ -146,25 +146,6 @@ footer p {
 			PHOTOS PAGE
 --------------------------------------*/
 
-/*-----SELECT BUTTON STYLES*/
-/*<<<<<<< HEAD
-.select-buttons button {
-	color: #1E2424;
-	border: none;
-	background: rgba(255, 255, 255, 0.5);
-}
-.select-buttons button:hover{
-	background: rgba(255, 255, 255, 0.7);
-}
-.selected {
-	border: none;
-	background-color: white;
-}
-.select-buttons {
-	list-style-type: none;
-	padding-left: 0;
-=======
->>>>>>> refs/remotes/origin/master*/
 
 .photo-container {
 	width: 100%;
@@ -420,11 +401,21 @@ select {
 }
 
 /*-----LARGE SCREENS*/
-@media only screen (min-width: 1025px) {
+@media (min-width: 1025px) {
 	/*-----PHOTOS PAGE*/
-	.select-buttons {
+	.col-lg {
+		display: flex;
 		flex-direction: row;
 	}
+	.photo-container {
+		max-width: 50%;
+		padding: 1em;
+		margin-bottom: 1em;
+	}
+
+/*	.select-buttons {
+		flex-direction: row;
+	}*/
 	.select-buttons h3 {
 		font-size: 1em;
 	}
