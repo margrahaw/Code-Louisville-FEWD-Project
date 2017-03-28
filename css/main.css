@@ -401,11 +401,21 @@ select {
 }
 
 /*-----LARGE SCREENS*/
-@media only screen (min-width: 1025px) {
+@media (min-width: 1025px) {
 	/*-----PHOTOS PAGE*/
-	.select-buttons {
+	.col-lg {
+		display: flex;
 		flex-direction: row;
 	}
+	.photo-container {
+		max-width: 50%;
+		padding: 1em;
+		margin-bottom: 1em;
+	}
+
+/*	.select-buttons {
+		flex-direction: row;
+	}*/
 	.select-buttons h3 {
 		font-size: 1em;
 	}
