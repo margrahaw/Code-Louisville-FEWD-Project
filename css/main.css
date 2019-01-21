@@ -24,11 +24,7 @@ body{
 	margin: 70px 0 0 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
-	background-color: #EDE9E8;
 	color: #00030A; 
-	background: url('../img/canyon_background.jpg') no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
 }
 p {
 	padding-bottom: 20px;
@@ -42,8 +38,7 @@ p {
 	background: rgba(255, 255, 255, 0.5);
 }
 .full-width {
-	margin: 100px auto;
-	width: 90%;
+	margin: auto;
 	max-width: 1000px;
 }
 
@@ -334,7 +329,7 @@ select {
 @media (min-width: 769px ) {
 	/*----BODY AND LAYOUT STYLES*/
 	.content {
-		padding: 30px;
+		padding: 0px;
 	}
 	.full-width {
 		width: 90%;
